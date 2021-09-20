@@ -11832,6 +11832,7 @@ section.resume-section .resume-section-content {
   background-color: var(--bs-gray);
   width: 270px;
   height: 480px;
+  margin-top: 25px;
 }
 
 .project-description{
