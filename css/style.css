@@ -5840,7 +5840,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: var(--bs-secondary);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -11799,12 +11799,105 @@ section.resume-section .resume-section-content {
 }
 
 .thumbnail {
-  width: 270px;
-  height: 480px;
-  border-style: solid;
+  width: 225px;
+  height: 225px;
+  margin-left: 17px;
+  margin-top: 10px;
+}
+
+.thumbnail:hover {
+  opacity: .7;
 }
 
 .project-icon {
+  font-size: 50px;
   position: absolute;
-  font-size: 80px;
+  margin-top: 350px;
+  color: white;
+  right: 1520px;
+  
+}
+
+
+.modal-button{
+  background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.project-container {
+  background-color: var(--bs-gray);
+  width: 270px;
+  height: 480px;
+}
+
+.project-description{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: var(--bs-font-monospace);
+}
+
+.project-username{
+  font-weight: bold;
+}
+
+.gram-buttons {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.gram-bookmark {
+  width: 25px;
+  height: 25px;
+  margin-left: 98px;
+}
+
+.gram-container {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.profile-container {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.gram-profile {
+  width: 30px;
+  height: 30px;
+}
+
+.profile-username {
+  margin-left: 5px;
+  font-family:  var(--bs-font-sans-serif);
+  font-size: 20px;
+}
+
+.gram-icon  {
+  font-size: 50px;
+  margin-left: 15px;
+  color: var(--bs-gray-dark);
+}
+
+.gram-icon:hover {
+  color: var(--bs-primary);
+}
+
+.icon-text {
+  font-family: var(--bs-font-monospace);
+  font-size: 25px;
+  bottom: 7px;
+  left: 5px;
+}
+
+.modal-link {
+  color: white;
+}
+
+.modal-link:hover {
+  color: var(--bs-primary);
 }
